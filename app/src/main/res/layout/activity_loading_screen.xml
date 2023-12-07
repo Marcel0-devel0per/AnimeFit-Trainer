@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loading_background"
+    tools:context=".LoadingScreenActivity">
+
+    <ImageView
+        android:id="@+id/apploading"
+        android:layout_width="290dp"
+        android:layout_height="222dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:src="@drawable/loading_icon" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimeFit Trainer"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp" />
+
+</RelativeLayout>

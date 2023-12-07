@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimeFit Trainer</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="ir_al_login">Ir al inicio de sesión</string>
+    <string name="ir_al_registro">Ir al registro</string>
+    <string name="logout">Cerrar sesión</string>
+</resources>

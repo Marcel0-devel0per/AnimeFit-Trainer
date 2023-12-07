@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "945238252780",
+    "project_id": "animefit-trainer",
+    "storage_bucket": "animefit-trainer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945238252780:android:a12a335bc783e58fc159c9",
+        "android_client_info": {
+          "package_name": "com.example.animefittrainer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYqfApFPkxTE18QvIGxRAvXOiYVshe9dY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
