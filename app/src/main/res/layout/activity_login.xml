@@ -6,7 +6,9 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="15dp"
+    android:background="@drawable/loading_background"
     android:layout_height="match_parent"
+
     tools:context=".LoginActivity">
 
     <TextView
@@ -14,6 +16,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:gravity="center"
+        android:textColor="#fff"
         android:layout_marginBottom="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -57,7 +60,13 @@
         android:layout_marginTop="20dp"
         android:id="@+id/registerNow"
         android:text="@string/ir_al_registro"
+        android:textColor="#fff"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_login_google"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </LinearLayout>

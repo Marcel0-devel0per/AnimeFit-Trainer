@@ -7,4 +7,5 @@
     <string name="ir_al_login">Ir al inicio de sesión</string>
     <string name="ir_al_registro">Ir al registro</string>
     <string name="logout">Cerrar sesión</string>
+
 </resources>

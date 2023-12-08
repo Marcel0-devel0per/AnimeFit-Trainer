@@ -12,7 +12,20 @@
           "package_name": "com.example.animefittrainer"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "945238252780-54c22eoes48qhrvdbgtbetvfee0jvf35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.animefittrainer",
+            "certificate_hash": "897ba35908e43823cb264b234110d148f0d5ac23"
+          }
+        },
+        {
+          "client_id": "945238252780-rse39kr3kaggtn4c6buf2r30puntprhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCYqfApFPkxTE18QvIGxRAvXOiYVshe9dY"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945238252780-rse39kr3kaggtn4c6buf2r30puntprhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

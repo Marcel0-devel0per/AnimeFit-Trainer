@@ -11,12 +11,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.Dark"
+        android:theme="@style/Theme.AnimeFitTrainer"
         tools:targetApi="34">
 
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/Theme.Material3.Dark.NoActionBar"
             android:exported="false" />
             <meta-data
                 android:name="android.app.lib_name"
@@ -24,13 +23,13 @@
 
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.Material3.Dark.NoActionBar"
             android:exported="false" />
         <meta-data
             android:name="android.app.lib_name"
             android:value="" />
 
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity" />
 
         <activity
             android:name=".LoadingScreenActivity"

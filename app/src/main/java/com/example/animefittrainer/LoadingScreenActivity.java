@@ -34,6 +34,6 @@ public class LoadingScreenActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),LoginActivity.class));
                 finish();
             }
-        }, 5000);
+        }, 2000);
     }
 }
