@@ -127,11 +127,9 @@ public class LoginActivity extends AppCompatActivity {
         if (requestCode == RC_SIGN_IN) {
             Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
             try {
-                // Google Sign-In fue exitoso, ahora autenticamos con Firebase
                 GoogleSignInAccount account = task.getResult(ApiException.class);
                 firebaseAuthWithGoogle(account.getIdToken());
             } catch (ApiException e) {
-                // Maneja los errores de Google Sign-In
                 Toast.makeText(this, "Error en Google Sign-In: " + e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }
@@ -144,12 +142,10 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            // Autenticación con Firebase exitosa, redirige a MainActivity
                             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                             startActivity(intent);
                             finish();
                         } else {
-                            // Maneja errores en la autenticación con Firebase
                             Toast.makeText(LoginActivity.this, "Error en la autenticación con Firebase: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_mikasa.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleMikasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rutina de ejercicios Mikasa Ackerman"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/introductionMikasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleMikasa"
+        android:layout_marginTop="8dp"
+        android:textColor="#000"
+        android:text="Entrena como Mikasa y perfecciona tus habilidades para enfrentar cualquier desafío con esta guía de entrenamiento." />
+
+    <!-- Images representing routines -->
+    <ImageView
+        android:id="@+id/image1Mikasa"
+        android:layout_width="700dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/introductionMikasa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageView
+        android:id="@+id/image2Mikasa"
+        android:layout_width="700dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/image1Mikasa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        />
+
+    <!-- Add more image views if needed -->
+
+    <!-- Button to go back to MainActivity -->
+    <Button
+        android:id="@+id/backToMainMikasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Volver al inicio" />
+
+</RelativeLayout>

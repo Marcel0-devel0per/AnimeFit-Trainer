@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/loading_background"
+    android:background="@color/cardview_light_background"
     tools:context=".LoadingScreenActivity">
 
     <ImageView
@@ -31,7 +31,7 @@
         android:text="AnimeFit Trainer"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="225dp" />
